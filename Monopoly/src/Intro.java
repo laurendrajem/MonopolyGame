@@ -17,7 +17,7 @@ import java.util.ArrayList;
  
  
  		System.out.println(); 
- 		System.out.println("How many players would like to play, 1 or 2?"); 
+ 		System.out.println("How many people will be playing monopoly.... 1 or 2?"); 
  		int answer = userInput.nextInt(); 
  		if(answer == 1)
  		{
