@@ -28,8 +28,9 @@ import java.util.ArrayList;
  			System.out.println("Player 1 please input your name."); 
  			String a = userInput.next(); 
  			players.add(new Players(0, 1, a, null, 1500)); 
+ 			System.out.println(players.get(0).getName());
  			System.out.println(); 
- 			System.out.println("Player 2 please inpu your name."); 
+ 			System.out.println("Player 2 please input your name."); 
  			String b = userInput.next(); 
  			players.add(new Players(0, 2, b, null, 1500)); 
  		
@@ -41,7 +42,7 @@ import java.util.ArrayList;
  			System.out 
  					.println("Please pick a character " 
  							+ players.get(0).getName() 
- 							+ " a 1)wheelbarrow, 2)thimble, 3)cat, 4)shoe, 5)battleship, or a 6)Scottish Terrier ?"); 
+ 							+ " 1)wheelbarrow, 2)thimble, 3)cat, 4)shoe, 5)battleship, or a 6)Scottish Terrier ?"); 
 			int j = userInput.nextInt(); 
  			switch (j) { 
  			case 1: 
@@ -68,9 +69,9 @@ import java.util.ArrayList;
  					+ players.get(0).getToken() + "."); 
  			System.out.println(); 
  			System.out 
- 					.println("Please pick a character" 
+ 					.println("Please pick a character " 
  							+ players.get(1).getName() 
- 							+ " a 1)wheelbarrow, 2)thimble, 3)cat, 4)shoe, 5)battleship, or a 6)Scottish Terrier ?"); 
+ 							+ " 1)wheelbarrow, 2)thimble, 3)cat, 4)shoe, 5)battleship, or a 6)Scottish Terrier ?"); 
  			int k = userInput.nextInt(); 
  			switch (k) { 
  			case 1: 

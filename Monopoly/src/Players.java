@@ -1,7 +1,7 @@
 public class Players { 
  	private int position; 
  	private int id; 
- 	static String name; 
+ 	private String name; 
  	private String token; 
  	private static int money; 
  	 
